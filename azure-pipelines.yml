@@ -35,3 +35,11 @@ steps:
     command: 'custom'
     customCommand: 'run build'
   displayName: 'Build app'
+
+- task: PublishPipelineArtifact@1
+  # Publish application artifact.
+  inputs:
+    targetPath: '$(Pipeline.Workspace)'
+    artifact: 'app'
+    publishLocation: 'pipeline'
+  displayName: 'Publish artifact'
