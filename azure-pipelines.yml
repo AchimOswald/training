@@ -27,4 +27,11 @@ steps:
   # Install required NPM packages.
   inputs:
     command: 'install'
-  displayName: 'Install npm packages'  
+  displayName: 'Install npm packages' 
+
+- task: Npm@1
+  # Build application.
+  inputs:
+    command: 'custom'
+    customCommand: 'run build'
+  displayName: 'Build app'
