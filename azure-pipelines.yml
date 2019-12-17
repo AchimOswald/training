@@ -130,7 +130,7 @@ stages:
 
     stageName: 'DeployTest'
 
-    webAppName: '$(TestEnvironemntWebAppName)'
+    webAppName: '$(TestEnvironmentWebAppName)'
     
     appType:  'webAppLinux'
 
