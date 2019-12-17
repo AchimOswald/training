@@ -1,0 +1,32 @@
+[
+  {
+    "id": "/subscriptions/f9e1f4a1-468b-453a-8679-daa881190ace/resourceGroups/VstsRG-achimoswald1-af96/providers/Microsoft.Resources/deployments/Deploy_DevOps_Project_DevOpsKronbergTraining/operations/3D095630B2B7C62C",
+    "operationId": "3D095630B2B7C62C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-12-16T14:53:33.7228124Z",
+      "duration": "PT59.2255608S",
+      "trackingId": "0eca7914-8f22-4287-b1df-085d6161ed56",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/f9e1f4a1-468b-453a-8679-daa881190ace/resourceGroups/VstsRG-achimoswald1-af96/providers/Microsoft.DevOps/pipelines/DevOpsKronbergTraining",
+        "resourceType": "Microsoft.DevOps/pipelines",
+        "resourceName": "DevOpsKronbergTraining"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/f9e1f4a1-468b-453a-8679-daa881190ace/resourceGroups/VstsRG-achimoswald1-af96/providers/Microsoft.Resources/deployments/Deploy_DevOps_Project_DevOpsKronbergTraining/operations/08586250989373305596",
+    "operationId": "08586250989373305596",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2019-12-16T14:53:33.787425Z",
+      "duration": "PT0.0351156S",
+      "trackingId": "62a18dbb-aa90-4b91-8ad6-2dd21b05008a",
+      "statusCode": "OK",
+      "statusMessage": null
+    }
+  }
+]

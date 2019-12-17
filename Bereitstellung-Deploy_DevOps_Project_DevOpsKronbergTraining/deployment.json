@@ -1,0 +1,47 @@
+{
+  "id": "/subscriptions/f9e1f4a1-468b-453a-8679-daa881190ace/resourceGroups/VstsRG-achimoswald1-af96/providers/Microsoft.Resources/deployments/Deploy_DevOps_Project_DevOpsKronbergTraining",
+  "name": "Deploy_DevOps_Project_DevOpsKronbergTraining",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/f9e1f4a1-468b-453a-8679-daa881190ace/resourcegroups/VstsRG-achimoswald1-af96/providers/Microsoft.DevOps/pipelines/DevOpsKronbergTraining",
+    "marketplaceItemId": "Microsoft.AzureProject"
+  },
+  "properties": {
+    "templateHash": "14750619634846527298",
+    "parameters": {
+      "azureAuth": {
+        "type": "SecureString"
+      },
+      "repository_auth": {
+        "type": "SecureObject"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2019-12-16T14:53:33.8040227Z",
+    "duration": "PT1M5.6569754S",
+    "correlationId": "e8cdf6fd-0653-4240-b3f3-dad31c593afe",
+    "providers": [
+      {
+        "namespace": "Microsoft.DevOps",
+        "resourceTypes": [
+          {
+            "resourceType": "pipelines",
+            "locations": [
+              "centralus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/f9e1f4a1-468b-453a-8679-daa881190ace/resourceGroups/VstsRG-achimoswald1-af96/providers/Microsoft.DevOps/pipelines/DevOpsKronbergTraining"
+      }
+    ]
+  }
+}
